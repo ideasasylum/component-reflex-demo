@@ -1,4 +1,8 @@
+<h2>
+  But this component is very fast to update. No controllers required!
+</h2>
 <p>
-  This is very quick to calculate: <%= Random.rand(100) %>
-  <a href="#" data-reflex="click->PartialReflex#random" data-reflex-root="#fast">Partial Refresh</a>
+  Here's a random number at the speed of ViewComponent rendering: <%= Random.rand(100) %>
+  <br>
+  <a href="#" data-reflex="click->PartialReflex#random" data-reflex-root="#fast">Partial refresh</a> (of just this number, happens without delay)
 </p>

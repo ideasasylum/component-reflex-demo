@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/podia/stimulus_reflex
-  revision: 6cf6ec44b0855b6c604216f4adde2dae1ecb4400
+  revision: d3931d3289e9e09d2832824ce9b0d177772ea24a
   branch: component
   specs:
     stimulus_reflex (3.2.1)

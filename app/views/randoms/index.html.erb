@@ -1,6 +1,11 @@
+<h1>
+  This page takes a long time to render
+</h1>
+
 <p>
-  This takes a long time to calculate: <%= sleep(2); Random.rand(100) %>
-  <a href="#" data-reflex="click->FullReflex#random">Full Refresh</a>
+  Here's a random number for you: <%= Random.rand(100) %>
+  <br>
+  <a href="#" data-reflex="click->FullReflex#random">Full Refresh</a> (takes about 2 secs)
 </p>
 
 <div id="fast">
