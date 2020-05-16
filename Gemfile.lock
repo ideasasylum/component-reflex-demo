@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/podia/stimulus_reflex
+  revision: 6cf6ec44b0855b6c604216f4adde2dae1ecb4400
+  branch: component
+  specs:
+    stimulus_reflex (3.2.1)
+      cable_ready (>= 4.1.2)
+      nokogiri
+      rack
+      rails (>= 6.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -170,11 +181,6 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
-    stimulus_reflex (3.2.1)
-      cable_ready (>= 4.1.2)
-      nokogiri
-      rack
-      rails (>= 6.0)
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
@@ -221,7 +227,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
-  stimulus_reflex (~> 3.2)
+  stimulus_reflex (~> 3.2)!
   turbolinks (~> 5)
   tzinfo-data
   view_component
