@@ -1,0 +1,8 @@
+<p>
+  This takes a long time to calculate: <%= sleep(2); Random.rand(100) %>
+  <a href="#" data-reflex="click->FullReflex#random">Full Refresh</a>
+</p>
+
+<div id="fast">
+  <%= render FastRandomComponent.new() %>
+</div>
