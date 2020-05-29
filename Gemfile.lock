@@ -1,13 +1,13 @@
 GIT
-  remote: https://github.com/podia/stimulus_reflex
-  revision: d3931d3289e9e09d2832824ce9b0d177772ea24a
+  remote: https://github.com/ideasasylum/stimulus_reflex
+  revision: 2990011251bebe56a30080d2f8ea65e8cb78c616
   branch: component
   specs:
-    stimulus_reflex (3.2.1)
+    stimulus_reflex (3.2.2.pre0)
       cable_ready (>= 4.1.2)
       nokogiri
       rack
-      rails (>= 6.0)
+      rails (>= 5.2)
 
 GEM
   remote: https://rubygems.org/
@@ -236,7 +236,7 @@ DEPENDENCIES
   webpacker (~> 4.0)
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.6.6p146
 
 BUNDLED WITH
    1.17.2
